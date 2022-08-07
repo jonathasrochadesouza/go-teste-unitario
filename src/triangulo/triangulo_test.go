@@ -7,6 +7,9 @@ import (
 const mensagemErroTriangulo = "Esperado o triangulo %v, mas, o triangulo encontrado é %v."
 const mensagemErroCalc = "O valor esperado é %v, mas, o valor recebido foi %v."
 
+/*
+Teste referente ao tipo do triangulo passado como argumento. Utilizado dataset para realizar trecho/bloco de teste.
+*/
 func TestTriangulo(t *testing.T) {
 	t.Parallel()
 
@@ -29,6 +32,9 @@ func TestTriangulo(t *testing.T) {
 	}
 }
 
+/*
+Teste referente ao perímetro do triangulo passado como argumento.
+*/
 func TestPerimetroTriangulo(t *testing.T) {
 	t.Parallel()
 
